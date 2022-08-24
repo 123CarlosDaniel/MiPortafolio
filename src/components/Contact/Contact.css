@@ -1,0 +1,17 @@
+
+.button-form {
+  margin-bottom: 1rem ;
+}
+.form-message {
+  background-color: aqua;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  color: black;
+  display: none;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+.show {
+  display: block;
+}
