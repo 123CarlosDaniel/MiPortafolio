@@ -4,9 +4,16 @@ import viajaPeru from '../../assets/viajaPeru.webp'
 import redSocial from '../../assets/redSocial.webp'
 import portafolio from '../../assets/portafolio.webp'
 import pokeApp from '../../assets/pokemonApp.webp'
+import chat from '../../assets/chat.webp'
 import './Projects.css'
 
 const cardProjects = [
+  {
+    title: 'Chat Websockets',
+    description: 'Proyecto FullStack con websockets',
+    image : chat,
+    link: 'https://ephemeral-baklava-bec371.netlify.app'
+  },
   {
     title: 'PokeApp',
     description: 'Proyecto fullStack personal PokemonApp',
@@ -33,8 +40,8 @@ const cardProjects = [
   }
   ,
   {
-    title: 'Viaja Perú',
-    description: 'Proyecto fullStack personal para Viaja Perú',
+    title: 'Portafolio',
+    description: 'Proyecto frontend personal ',
     image: portafolio,
     link: 'https://portafo121534.herokuapp.com/'
   }

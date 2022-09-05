@@ -9,10 +9,10 @@
   transform: translateY(0);
 }
 .card-project:hover .card-description {
-  color: #1dc1ff;
+  color: #f8efed;
 }
 .card-project:hover .card-title {
-  color: black;
+  color: #792f56;
 }
 .cards-container {
   display: grid;
@@ -39,6 +39,8 @@
 .card-description {
   margin: 0 1.5rem;
   margin-block: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
   color: white;
   transition: color 0.35s ease-in-out;
   transition-delay: 0.35s;

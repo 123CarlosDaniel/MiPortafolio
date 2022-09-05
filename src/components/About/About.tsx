@@ -31,7 +31,9 @@ const About = () => {
                 <li>MongoDB, PostgreSQL, MySQL</li>
                 <li>FullStack apps deployment</li>
             </p>
-            <h4 className="p-title">Extra skills</h4>
+          </div>
+          <div>
+          <h4 className="p-title">Extra skills</h4>
             <p className="p-content">
                 <li>Docker, Go for API development, Python</li>
                 <li>knowledge of algorithms and data structures</li>

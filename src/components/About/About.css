@@ -34,7 +34,7 @@
 }
 
 .p-content {
-  margin-block: 2rem;
+  margin-block: 1rem;
 }
 .canvas-p {
   margin: 2rem 0;
@@ -56,9 +56,15 @@
     justify-content: center;
     gap: 2rem;
   }
+  .canvas-p {
+    display: none;
+  }
+  .p-about {
+    display: block;
+  }
   .p-container {
     text-align: center;
-    gap: 2rem;
+    gap: 1rem;
   }
 }
 
@@ -66,9 +72,5 @@
   
   .canvas-container {
     display: none;
-  }
-
-  .p-about {
-    display: block;
   }
 }
