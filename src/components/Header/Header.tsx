@@ -2,6 +2,7 @@ import './Header.css'
 import { ImLinkedin2} from 'react-icons/im'
 import {RiGithubFill} from 'react-icons/ri'
 import {TbBrandTwitter} from 'react-icons/tb'
+import CV from '../../assets/CV.pdf'
 const Header = () => {
   return (
     <section className="header" id="principal">
@@ -15,7 +16,10 @@ const Header = () => {
         with the ability to solve any type of problem, 
         I have a great capacity for teamwork and with a good desire to continue learning. 
         </p>
+        <div className='header-buttons'>
         <button><a href="#contact">Contact me</a></button>
+        <button><a href={CV} download>See résumé</a></button>
+        </div>
       </div>
       <div className='header-content'>
         <h4>My social networks</h4>
