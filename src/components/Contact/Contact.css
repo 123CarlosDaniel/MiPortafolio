@@ -1,16 +1,20 @@
 
 .button-form {
   margin-bottom: 1rem ;
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 0.2rem 0.8rem;
 }
 .form-message {
-  background-color: aqua;
-  width: 80%;
+  background-color: rgb(35, 204, 78);
+  box-shadow: 0 0 5px rgb(35, 204, 78), 0 0 10px rgb(35, 204, 78);
+  width: fit-content;
   margin: 0 auto;
   padding: 10px;
-  color: black;
+  color:  #0f0606;
   display: none;
   font-size: 1.25rem;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 .show {
   display: block;

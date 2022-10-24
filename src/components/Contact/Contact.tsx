@@ -7,14 +7,12 @@ const Contact = () => {
   const [show, setShow] = useState(false)
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-
     emailjs.sendForm('service_a2owugw', 'template_o3lolpp', form.current as HTMLFormElement, 'ez3QVxlfAB8gURWDh')
       .then(() => {
         form.current?.reset()  
         setShow(true)
       })
-      .catch(err => console.log(err.text))
-      
+      .catch(err => console.log(err.text))   
       new Promise(res => {
           setTimeout(() => {
             res(setShow(false))

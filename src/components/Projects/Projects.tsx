@@ -5,45 +5,59 @@ import redSocial from '../../assets/redSocial.webp'
 import portafolio from '../../assets/portafolio.webp'
 import pokeApp from '../../assets/pokemonApp.webp'
 import chat from '../../assets/chat.webp'
+import editorOnline from '../../assets/editor-online.webp'
 import './Projects.css'
 
 const cardProjects = [
   {
+  title: 'Online Editor',
+  description: 'Full stack project with websockets and JWT',
+  image : editorOnline,
+  link: 'https://editor-online-app.netlify.app',
+  github : 'https://github.com/123CarlosDaniel/online-editor'
+  },
+  {
     title: 'Chat Websockets',
-    description: 'Proyecto FullStack con websockets',
+    description: 'Full stack project with websockets and JWT',
     image : chat,
-    link: 'https://ephemeral-baklava-bec371.netlify.app'
+    link: 'https://chat-websockets-practice.netlify.app',
+    github : 'https://github.com/123CarlosDaniel/chat-typescript'
   },
   {
     title: 'PokeApp',
-    description: 'Proyecto fullStack personal PokemonApp',
+    description: 'Full stack project with GraphQL',
     image: pokeApp,
-    link: 'https://mypokeapp.ml/'
+    link: 'https://mypokeapp.ml/',
+    github : 'https://github.com/123CarlosDaniel/pokeApp-JWT-Graphql'
   },
   {
     title: 'Malitolia',
-    description: 'Proyecto fullStack personal Malitolia',
+    description: 'Full stack project, uploader images',
     image: malitolia,
-    link: 'https://productos-frontend-cdcm.herokuapp.com/'
+    link: 'https://malitolia.netlify.app',
+    github : 'https://github.com/123CarlosDaniel/Ecommerce-app'
   },
   {
     title: 'Red Social',
-    description: 'Proyecto frontend personal con Material UI',
+    description: 'Front-end project with MUI',
     image: redSocial,
-    link : 'https://redsocialbasica1476.herokuapp.com/'
+    link : 'https://mui-social-practice.netlify.app',
+    github : 'https://github.com/123CarlosDaniel/mui-social'
   },
   {
     title: 'Viaja Perú',
-    description: 'Proyecto fullStack personal Viaja Perú',
+    description: 'Front-end project React',
     image: viajaPeru,
-    link: 'https://landingpage12486.herokuapp.com/'
+    link: 'https://landingpage12486.herokuapp.com/',
+    github : 'https://github.com/123CarlosDaniel/Landinpage-React'
   }
   ,
   {
     title: 'Portafolio',
-    description: 'Proyecto frontend personal ',
+    description: 'Front-end project React',
     image: portafolio,
-    link: 'https://portafo121534.herokuapp.com/'
+    link: 'https://123carlosdaniel.github.io/portfolio/',
+    github : 'https://github.com/123CarlosDaniel/portfolio'
   }
 ]
 

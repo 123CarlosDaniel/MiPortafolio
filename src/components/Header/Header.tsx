@@ -1,7 +1,7 @@
 import './Header.css'
 import { ImLinkedin2} from 'react-icons/im'
 import {RiGithubFill} from 'react-icons/ri'
-import {TbBrandTwitter} from 'react-icons/tb'
+import {BsWhatsapp} from 'react-icons/bs'
 import CV from '../../assets/CV.pdf'
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="overlay"></div>
       <div className='header-container'>
       <div className="header-content">
-        <h2 className="header-title">Welcome, I'm Carlos Choque</h2> 
+        <h2 className="header-title">Welcome, I'm Carlos Daniel CM</h2> 
         <h4>FullStack Web Developer</h4>
         <p>
         I am a developer with experience in the development of web applications, 
@@ -26,7 +26,7 @@ const Header = () => {
         <ul>
           <li><a href="https://www.linkedin.com/in/carlos-c-moreno-17b917192/" target={'_blank'} ><ImLinkedin2/></a></li>
           <li><a href="https://github.com/123CarlosDaniel" target={'_blank'} ><RiGithubFill/></a></li>
-          <li><a href="https://twitter.com/cdc_mo" target={'_blank'} ><TbBrandTwitter/></a></li>
+          <li><BsWhatsapp/><span>+51 913896788</span></li>
         </ul>
       </div>
       </div>

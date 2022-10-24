@@ -19,7 +19,6 @@
 
 .p-about {
   margin: 1rem 0;
-  display: none;
 }
 .p-container {
   text-align: start;
@@ -36,17 +35,19 @@
 .p-content {
   margin-block: 1rem;
 }
-.canvas-p {
-  margin: 2rem 0;
-  font-size: 0.85rem;
-  align-self: flex-end;
-}
+
 .canvas-span {
   display: block;
   background-color: black;
   padding: 0.25rem 0.5rem ;
   font-size: 0.85rem;
   color: #fff;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* media screen */
 @media screen and (max-width: 930px) {
@@ -56,15 +57,13 @@
     justify-content: center;
     gap: 2rem;
   }
-  .canvas-p {
-    display: none;
-  }
-  .p-about {
-    display: block;
-  }
   .p-container {
     text-align: center;
     gap: 1rem;
+  }
+  .p-content >li {
+    display: block;
+    text-align: center;
   }
 }
 

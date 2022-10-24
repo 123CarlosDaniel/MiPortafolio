@@ -13,7 +13,7 @@ const About = () => {
     <section id="about">
       <h2 className="about-title">About me</h2>
       <p className='p-about'>I'm a self-taught programmer, i really enjoy learning new technologies and i do it fast.
-           Everytime i find a problem i try it until i solve it.</p>
+           Everytime i find a problem i try until i solve it.</p>
       <div className="about-content">
         <div className="p-container">
           <div>
@@ -41,11 +41,11 @@ const About = () => {
             </p>
           </div>
         </div>
+        <div className='vertical-center'>
         <div className="canvas-container">
-          <p className='canvas-p'>I'm a self-taught programmer, i really enjoy learning new technologies and i do it fast.
-           Everytime i find a problem i try it until i solve it.</p>
+          <span className='canvas-span'>Created with canvas HTML</span>
           <Canvas draw={draw}></Canvas>
-          <span className='canvas-span'>Animation created with canvas HTML</span>
+        </div>
         </div>
       </div>
     </section>

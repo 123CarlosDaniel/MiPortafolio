@@ -8,12 +8,7 @@
 .card-project:hover .card-content {
   transform: translateY(0);
 }
-.card-project:hover .card-description {
-  color: #f8efed;
-}
-.card-project:hover .card-title {
-  color: #792f56;
-}
+
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -32,7 +27,7 @@
   transform: translateY(13rem);
   transition: transform 0.35s ease-in-out;
   color: white;
-  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -41,13 +36,11 @@
   margin-block: 0.5rem;
   font-weight: 600;
   letter-spacing: 1px;
-  color: white;
   transition: color 0.35s ease-in-out;
   transition-delay: 0.35s;
 }
 
 .card-title {
-  color: white;
   font-weight: 700;
   letter-spacing: 1px;
   transition: color 0.35s ease-in-out;
@@ -57,6 +50,12 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {

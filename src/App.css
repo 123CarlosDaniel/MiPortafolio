@@ -67,6 +67,9 @@ ul {
 
 li {
   list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 a {
@@ -89,7 +92,6 @@ img {
 
 }
 svg:hover {
-  color: black;
   transform: translateY(-0.25rem);
 }
 
@@ -103,11 +105,12 @@ textarea {
   resize: none;
   padding: 0.5rem;
   border: 2px solid #0b526b;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
+  outline: none;
 }
 
 form {
-  width: 100%;
+  width: 30rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -126,8 +129,14 @@ form > div {
 input {
   padding: 0.5rem;
   border: 2px solid #0b526b;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
+  outline: none;
 }
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 10px #0b526b ;
+}
+
 @media screen and (max-width: 768px) {
 
   
